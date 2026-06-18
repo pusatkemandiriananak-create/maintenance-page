@@ -1,8 +1,73 @@
 <!DOCTYPE html>
-<html>
-<head><title>Maintenance</title></head>
-<body style="text-align:center; padding-top:50px;">
-    <h1>Website Sedang Dalam Pemeliharaan</h1>
-    <p>Kami akan segera kembali. Terima kasih atas kesabaran Anda.</p>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Sedang Dalam Pemeliharaan</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9fafb;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            text-align: center;
+            max-width: 600px;
+            width: 100%;
+            background: #ffffff;
+            padding: 40px 30px;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+        }
+        .illustration {
+            max-width: 80%;
+            height: auto;
+            margin-bottom: 30px;
+            border-radius: 8px; /* Biar sudut gambarnya agak melengkung halus */
+        }
+        h1 {
+            font-size: 1.8rem;
+            color: #2d3748;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+        p {
+            font-size: 1rem;
+            color: #718096;
+            line-height: 1.6;
+        }
+        @media (max-width: 480px) {
+            .container {
+                padding: 30px 20px;
+            }
+            h1 {
+                font-size: 1.5rem;
+            }
+            p {
+                font-size: 0.95rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- CATATAN: Pastikan nama file gambar lo di github persis tulisan di bawah ini -->
+        <img src="maintenance.jpg" alt="Website Under Maintenance" class="illustration">
+        
+        <h1>Website Sedang Dalam Pemeliharaan</h1>
+        <p>Kami sedang melakukan pembaruan sistem untuk meningkatkan layanan kami. Kami akan segera kembali online. Terima kasih atas kesabaran Anda.</p>
+    </div>
+
 </body>
 </html>
